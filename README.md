@@ -1,10 +1,5 @@
-<div align="center">
-  <img src="icon.png" alt="Conwatch Logo" width="120">
-  <h1>Conwatch</h1>
-  <p><strong>Never lose your place in a video again.</strong></p>
-  <p>A universal browser extension for a "continue watching" list that works across the entire web.</p>
-</div>
-
+# Conwatch
+![conwach](icon.png)
 ---
 
 Conwatch lets you save and resume anything you watch—movies, series, anime, lectures, streams—no matter which website you’re on. With a simple keyboard shortcut, you can save your progress and pick it right back up from a sleek, modern side panel.
