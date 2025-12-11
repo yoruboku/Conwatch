@@ -1,4 +1,4 @@
-[Conwatch](icon.png)
+![Conwatch](icon.png)
 # Conwatch
   universal browser extension for a "continue watching" list that works across the entire web.</p>
 
