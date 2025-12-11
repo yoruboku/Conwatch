@@ -1,7 +1,9 @@
-# Conwatch
 ![Conwatch](icon.png)
-Conwatch is an open-source browser extension that creates a universal **“continue watching”** list for video content across the web.  
+# Conwatch
 
+---
+
+Conwatch is an open-source browser extension that creates a universal **“continue watching”** list for video content across the web,
 It automatically detects what you're watching, saves your progress, and lets you resume from any point through a smooth side panel UI.
 
 Conwatch works on Chrome, Firefox, Opera, and Zen Browser.
