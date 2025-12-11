@@ -1,5 +1,5 @@
 # Conwatch
-[Conwatch](icon.png)
+![Conwatch](icon.png)
 
 ---
 
