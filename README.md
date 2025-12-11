@@ -64,7 +64,7 @@ This project doesn't require a build system. You can load it directly into your 
 
 ## ✍️ Author
 
-Created with **[Yoruboku](https://github.com/yoruboku)**. by Gemini
+Created with **[Yoruboku](https://github.com/yoruboku)** by Gemini
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
