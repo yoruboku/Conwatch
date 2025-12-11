@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "name": "Conwatch",
+  "version": "1.0",
+  "description": "Universal 'continue watching' for the web.",
+  "permissions": [
+    "sidePanel",
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "Open Conwatch Side Panel"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+P"
+      }
+    },
+    "manual-save": {
+      "suggested_key": {
+        "default": "Alt+Shift+M"
+      },
+      "description": "Save current video progress"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
