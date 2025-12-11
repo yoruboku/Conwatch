@@ -1,15 +1,11 @@
 # Conwatch
 [Conwatch](icon.png)
+
 ---
 
 Conwatch lets you save and resume anything you watch—movies, series, anime, lectures, streams—no matter which website you’re on. With a simple keyboard shortcut, you can save your progress and pick it right back up from a sleek, modern side panel.
 
-<br>
-
-> **Note:** This is a fully functional extension, but the UI/UX is designed with a modern, clean aesthetic in mind, featuring smooth animations and blur effects.
-
-<!-- TODO: Add a GIF of the extension in action here! -->
-<!-- Example: <p align="center"><img src="demo.gif" alt="Conwatch Demo"></p> -->
+---
 
 ## ✨ Key Features
 
