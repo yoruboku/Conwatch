@@ -1,7 +1,6 @@
 <div align="center">
   <img src="icon.png" alt="Conwatch Logo" width="120">
   <h1>Conwatch</h1>
-  <p><strong>Never lose your place in a video again.</strong></p>
   <p>A universal browser extension for a "continue watching" list that works across the entire web.</p>
 </div>
 
