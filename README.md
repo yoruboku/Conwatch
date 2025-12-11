@@ -1,77 +1,92 @@
-![Conwatch](icon.png)
 # Conwatch
-  universal browser extension for a "continue watching" list that works across the entire web.</p>
+
+Conwatch is an open-source browser extension that creates a universal **“continue watching”** list for video content across the web.  
+It automatically detects what you're watching, saves your progress, and lets you resume from any point through a smooth side panel UI.
+
+Conwatch works on Chrome, Firefox, Opera, and Zen Browser.
 
 ---
 
-Conwatch lets you save and resume anything you watch—movies, series, anime, lectures, streams—no matter which website you’re on. With a simple keyboard shortcut, you can save your progress and pick it right back up from a sleek, modern side panel.
+## ✨ Features
 
-<br>
+### 🔹 Universal Video Tracking
+- Detects videos on almost any website.
+- Saves title, link, thumbnail, and exact timestamp.
+- Optional autosave when leaving selected websites.
 
-> **Note:** This is a fully functional extension, but the UI/UX is designed with a modern, clean aesthetic in mind, featuring smooth animations and blur effects.
+### 🔹 Continue Watching Panel
+- Opens a modern, animated side panel with all your saved videos.
+- Each item shows:
+  - Thumbnail  
+  - Title  
+  - Season/Episode (if found)  
+  - Website source  
+  - Watch progress  
+- Includes actions:
+  - **Play** → Opens the page and resumes at the saved timestamp  
+  - **Pin** → Keep a video at the top  
+  - **Delete**  
+  - **Manual Add (+)** → Saves the current page’s video
 
-<!-- TODO: Add a GIF of the extension in action here! -->
-<!-- Example: <p align="center"><img src="demo.gif" alt="Conwatch Demo"></p> -->
+### 🔹 Customizable Settings
+- Choose which sites should autosave.
+- Light & dark themes.
+- Change keyboard shortcuts through the browser’s extension shortcut page.
+- See extension info and GitHub link.
 
-## ✨ Key Features
+### 🔹 Keybinds
+(Default values — customizable in browser settings)
+- **Alt + Shift + M** → Open side panel  
+- **Alt + Shift + N** → Manual save
 
-- **Universal Tracking**: Works with the standard `<video>` tag on almost any website.
-- **One-Click Save**: Manually save your video progress with a customizable keyboard shortcut (`Alt+Shift+M` by default).
-- **Instant Access Side Panel**: Open a clean, intuitive side panel to see your whole watchlist (`Alt+Shift+N` by default).
-- **Detailed Tracking**: Remembers the video's:
-    - Title
-    - Season & Episode (if available)
-    - Thumbnail
-    - Direct Link
-    - Exact Timestamp
-- **Smart Autosave**: Automatically saves your progress when you leave a tracked site (e.g., Netflix, YouTube). You control which sites to track!
-- **Modern UI**:
-    - Light & Dark modes.
-    - Pin videos to the top.
-    - Quickly remove videos from your list.
-    - Add a video from your current tab directly from the side panel.
+---
 
-##  browsers Supported Browsers
+## 📦 Installation
 
-Conwatch is built with cross-browser compatibility in mind and works seamlessly on:
+### **Chrome / Opera / Edge**
+1. Download the latest release.
+2. Go to `chrome://extensions`
+3. Enable **Developer Mode**.
+4. Click **Load Unpacked** and select the extension folder.
 
-- **Google Chrome** (and other Chromium browsers like **Opera**, **Brave**, **Zen**)
-- **Mozilla Firefox**
+### **Firefox**
+1. Go to `about:debugging#/runtime/this-firefox`  
+2. Click **Load Temporary Add-on…**  
+3. Select `manifest.firefox.json`.
 
-## 🚀 Installation
+---
 
-This project doesn't require a build system. You can load it directly into your browser.
+## 🧠 How It Works
+Conwatch injects a lightweight content script into supported pages.  
+It identifies active `<video>` elements, extracts metadata, and saves progress using browser storage APIs.  
+The background script manages communication and syncing between tabs, content scripts, and the side panel UI.
 
-### For Google Chrome (and Chromium Browsers)
-1.  Navigate to `chrome://extensions`.
-2.  Enable **"Developer mode"** in the top-right corner.
-3.  Click **"Load unpacked"**.
-4.  Select the `both` directory from the project folder.
+---
 
-### For Mozilla Firefox
-1.  Navigate to `about:debugging#/runtime/this-firefox`.
-2.  Click **"Load Temporary Add-on..."**.
-3.  Select the `manifest.firefox.json` file from the project folder.
+## 🛠️ Tech Used
+- Plain JavaScript (ES6+)
+- HTML + CSS (no frameworks, no build tools)
+- Separate manifests for Chrome and Firefox
+- Browser `storage.local` for saved data
+- Message passing between scripts
 
-## 🎮 How to Use
+---
 
-1.  **Open the Side Panel**: Press `Alt+Shift+N`.
-2.  **Save a Video Manually**: When on a page with a video, press `Alt+Shift+M`.
-3.  **Customize Shortcuts**: Go to your browser's extension keyboard shortcut settings to change the keybindings.
-    - Chrome: `chrome://extensions/shortcuts`
-4.  **Manage Your List**:
-    - **Play**: Click the play button on a video's thumbnail in the side panel to jump right back in.
-    - **Pin/Remove**: Use the 3-dot menu on any video to pin it or remove it.
-    - **Add Current**: Click the `+` button in the side panel to add the video from your active tab.
-5.  **Configure Settings**:
-    - Open the side panel and click the settings icon.
-    - Toggle between light and dark themes.
-    - Add or remove websites from the autosave list.
+## 🤝 Contributing
 
-## ✍️ Author
+Contributions are welcome!  
+If you have ideas or improvements:
+1. Open an issue  
+2. Submit a PR  
+3. Suggest new site support or UI improvements  
 
-Created with ❤️ by **[Yoruboku](https://github.com/yoruboku)**.
+---
 
 ## 📄 License
+This project is open-source under the MIT License.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
+
+## ⭐ Support the Project
+If you enjoy Conwatch, star the repository on GitHub to support development!
+
