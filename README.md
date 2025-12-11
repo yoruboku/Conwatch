@@ -1,5 +1,5 @@
 # Conwatch
-![conwach](icon.png)
+[Conwatch](icon.png)
 ---
 
 Conwatch lets you save and resume anything you watch—movies, series, anime, lectures, streams—no matter which website you’re on. With a simple keyboard shortcut, you can save your progress and pick it right back up from a sleek, modern side panel.
