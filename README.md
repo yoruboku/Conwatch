@@ -69,7 +69,7 @@ Install it directly from the Firefox Add-ons store:
 
 ## ✍️ Author
 
-Created with **[Yoruboku](https://github.com/yoruboku)** by Gemini
+Created by **[Yoruboku](https://github.com/yoruboku)**
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
