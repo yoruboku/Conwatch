@@ -29,7 +29,7 @@ Conwatch lets you save and resume anything you watch—movies, series, anime, le
 
 Conwatch is built with cross-browser compatibility in mind and works seamlessly on:
 
-- **Google Chrome** (and other Chromium browsers like **Opera**, **Brave**, **Zen**)
+- **Google Chrome**
 - **Mozilla Firefox**
 
 ## 🚀 Installation
@@ -46,6 +46,8 @@ This project doesn't require a build system. You can load it directly into your 
 1.  Navigate to `about:debugging#/runtime/this-firefox`.
 2.  Click **"Load Temporary Add-on..."**.
 3.  Select the `manifest.firefox.json` file from the project folder.
+   OR
+[link](https://addons.mozilla.org/en-US/firefox/addon/conwatch/) just add it from there.
 
 ## 🎮 How to Use
 
