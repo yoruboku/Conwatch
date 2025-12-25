@@ -36,7 +36,7 @@ Conwatch is built with cross-browser compatibility in mind and works seamlessly 
 
 This project doesn't require a build system. You can load it directly into your browser.
 
-### For Google Chrome (and Chromium Browsers)
+### For Google Chrome (and Chromium Browsers maybe)
 1.  Navigate to `chrome://extensions`.
 2.  Enable **"Developer mode"** in the top-right corner.
 3.  Click **"Load unpacked"**.
@@ -46,8 +46,11 @@ This project doesn't require a build system. You can load it directly into your 
 1.  Navigate to `about:debugging#/runtime/this-firefox`.
 2.  Click **"Load Temporary Add-on..."**.
 3.  Select the `manifest.firefox.json` file from the project folder.
-   OR
-[link](https://addons.mozilla.org/en-US/firefox/addon/conwatch/) just add it from there.
+
+**OR**
+
+Install it directly from the Firefox Add-ons store:  
+[Conwatch Add-on](https://addons.mozilla.org/en-US/firefox/addon/conwatch/)
 
 ## 🎮 How to Use
 
